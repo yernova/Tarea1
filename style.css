@@ -1,0 +1,77 @@
+*{margin:0px; padding:0px;}
+
+body {background-color:gray;}
+#principal
+{   margin: auto;
+    margin-top: 30px; 
+    width:600px;
+    height: 600px;
+}
+
+#caja1{
+    border-style: solid;
+    border-radius: 150px;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+#ojo1{
+    border-radius: 50px;
+    width: 1px;
+    height: 1px;
+    background-color: black;
+}
+
+#ojo2{
+    border-radius: 50px;
+    width: 1px;
+    height: 1px;
+    background-color: black;
+}
+
+#boca{
+    border-radius: 50px;
+    width: 1px;
+    height: 1px;
+    background-color: yellowgreen;
+}
+
+#caja2{
+    position:relative;
+    border:3px solid black;
+    margin: none;
+    border-radius: 200px;
+    width: 110px;
+    height: 110px;
+    background-color: blueviolet;
+}
+
+#brazo1{
+    position:absolute;
+    left:-130px;
+    top:20px;
+    margin:0px;
+    width:150px;
+    height:3px;
+    background-color:black;
+    transform:rotate(18deg);
+}
+
+#brazo2{
+    position:absolute;
+    left:90px;
+    top:20px;
+    margin:0px;
+    width:150px;
+    height:3px;
+    background-color:black;
+    transform:rotate(158deg);
+}
+
+#caja3{
+    border-style: solid;
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
